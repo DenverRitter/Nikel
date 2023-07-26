@@ -70,7 +70,7 @@ function getTransactions() {
             }
             transactionsHtml += `
                     <tr>
-                        <th scope="row">${item.date}</th>
+                         <th scope="row">${item.date}</th>
                         <td>${item.value.toFixed(2)}</td>
                         <td>${type}</td>
                         <td>${item.description}</td>
